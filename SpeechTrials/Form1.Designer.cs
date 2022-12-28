@@ -31,7 +31,6 @@
             this.btnRecordVoice = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnSpeechInfo = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -48,7 +47,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(21, 66);
+            this.btnSave.Location = new System.Drawing.Point(21, 60);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(105, 24);
             this.btnSave.TabIndex = 1;
@@ -66,21 +65,12 @@
             this.btnSpeechInfo.UseVisualStyleBackColor = true;
             this.btnSpeechInfo.Click += new System.EventHandler(this.btnSpeechInfo_Click);
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(171, 14);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(21, 164);
+            this.textBox1.Location = new System.Drawing.Point(21, 169);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(392, 146);
+            this.textBox1.Size = new System.Drawing.Size(485, 141);
             this.textBox1.TabIndex = 4;
             // 
             // Form1
@@ -89,7 +79,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 343);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.btnSpeechInfo);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnRecordVoice);
@@ -106,7 +95,6 @@
         private System.Windows.Forms.Button btnRecordVoice;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnSpeechInfo;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox1;
     }
 }

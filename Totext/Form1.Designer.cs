@@ -34,20 +34,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(227, 121);
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Location = new System.Drawing.Point(12, 199);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(185, 43);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Texte Çevir";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // transcribedTextTextBox
             // 
-            this.transcribedTextTextBox.Location = new System.Drawing.Point(130, 259);
+            this.transcribedTextTextBox.Location = new System.Drawing.Point(12, 248);
             this.transcribedTextTextBox.Multiline = true;
             this.transcribedTextTextBox.Name = "transcribedTextTextBox";
-            this.transcribedTextTextBox.Size = new System.Drawing.Size(498, 139);
+            this.transcribedTextTextBox.Size = new System.Drawing.Size(776, 190);
             this.transcribedTextTextBox.TabIndex = 1;
             // 
             // Form1
